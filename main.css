@@ -1,0 +1,47 @@
+body{
+margin:0;
+padding:0;
+font-family:cursive;
+}
+header{
+	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(IMG_1400.jpg);
+	height: 100vh;
+	background-position:fill;
+	background-size:cover;
+}
+ul{
+	float:left;
+	list-style-type:none;
+	margin-top: 30px;
+}
+ul li{
+	display:inline-block;
+}
+ul li a{
+	text-decoration:none;
+	color: white;
+	padding: 10px 20px;
+	border: 1px solid transparent;
+}
+ul li a:hover{
+	background-color:black;
+	color: white;
+}
+ul li.active a{
+	background-color: black;
+	color: white;
+}
+.maintext{
+	max-width: 1500px;
+	margin: auto;
+}
+.title{
+	position: absolute;
+	top: 50%;
+	left:50%;
+	transform: translate(-50%,-50%);
+}
+.title h1{
+	color: white;
+	font-size: 50px;
+}
