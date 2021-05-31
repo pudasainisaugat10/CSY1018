@@ -5,6 +5,7 @@ body
     font-family:cursive;
     background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(IMG_1400.jpg);
     background-size:cover;
+background-attachment: fixed;
 }
 header
 {
@@ -44,9 +45,7 @@ ul li.active a
 }
 .title
 {
-
-    font-size: 30px;
-	float: right;
+  	float: right;
 }
 .title h1
 {
@@ -86,7 +85,7 @@ ul li.active a
 {
     position: fixed;
     background-color: rgba(255, 255, 255, 0.2);
-    color: white;
+    color: black;
     left: 0;
     bottom: 0;
     width: 100%;

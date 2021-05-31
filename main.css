@@ -5,6 +5,7 @@ body
     font-family:cursive;
     background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(IMG_1400.jpg);
     background-size:cover;
+    background-attachment: fixed;
 }
 header
 {
@@ -58,7 +59,7 @@ ul li.active a
 {
     position: fixed;
     background-color: rgba(255, 255, 255, 0.2);
-    color: white;
+    color: black;
     left: 0;
     bottom: 0;
     width: 100%;
@@ -74,7 +75,6 @@ ul li.active a
     text-decoration: none;
     margin: 5px 3px;
 }
-
 .fa:hover
 {
     opacity: 0.5;
@@ -126,4 +126,182 @@ ul li.active a
 {
  	background-color: green; 
  	color: #FFFFC0;
- }
+}
+.curri
+{
+	float: right;
+}
+.curri
+{
+    color: white;
+    font-size: 25px;
+}
+
+.cv
+{
+    width: 950px;
+    background: #fff;
+    margin: auto;
+    display: flex;
+}
+
+.leftside{
+    background:red;
+    width: 350px;
+    padding: 0 20px;
+}
+
+.leftside .icon
+{
+    font-size: 25px;
+    color: black;
+}
+
+.left .text
+{
+    color: black;
+    text-transform: uppercase;
+    font-size: 13px;
+}
+.contact 
+{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 15px;
+}
+.li_wrap
+{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 15px;
+}
+.tit
+{
+    font-size: 30px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    padding-bottom: 10px;
+    color: maroon;
+    position: relative;
+    text-align: right;
+    margin-bottom: 20px;
+    transform: translate(-43px, 15px);
+}
+.contact .li_wrap .icon
+{
+    width: 50px;
+    height: 50px;
+    background: white;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 15px;
+}
+.contact .li_wrap .text
+{
+    width: calc(100% - 50px);
+    word-break: break-word;
+    color: #fff;
+}
+.skills ul
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.skills .li_wrap{
+        width: 100px;
+    height: 100px;
+    margin-bottom: 15px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.skills .li_wrap{
+    background: #fff;
+}
+
+.skills .li_wrap .text{
+    margin-top: 5px;
+}
+.hobbies ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.hobbies .li_wrap{
+    width: 100px;
+    height: 100px;
+    margin-bottom: 15px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.hobbies .li_wrap .text
+{
+    margin-top: 5px;
+}
+
+.hobbies .li_wrap
+{
+    border: 2px solid #fff;
+}
+.rightside
+{
+    width: calc(100% - 200px);
+}
+.header
+{
+    background: #292b2f;
+    padding: 15px 30px;
+    color: #fff;
+    height: 240px;
+}
+.name
+{
+    font-size: 52px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: white;
+}
+.header .about
+{
+    margin-top: 20px;
+    line-height: 26px;
+}
+.innerpart
+{
+    padding: 30px;
+    color: black;
+    transform: translate(4px, 48px);
+    font-style:oblique;
+    text-align: justify;
+}
+ .table 
+ {
+  border: 2px solid #000;
+  margin: 1rem 0 1rem 0;
+  width: 100%;
+  text-align: center;
+  border-collapse: collapse;
+}
+ td
+ {  border: 1px solid ;
+  padding: 0.4rem;
+} 
+th 
+{
+  border: 1px solid ;
+  padding: 0.4rem;
+}
