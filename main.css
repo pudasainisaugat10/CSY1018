@@ -2,14 +2,13 @@ body
 {
     margin:0;
     padding:0;
-    font-family:cursive;
     background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(IMG_1400.jpg);
     background-size:cover;
     background-attachment: fixed;
 }
 header
 {
-    height: 90px;
+    height: 250px;
 }
 ul
 {
@@ -94,6 +93,43 @@ ul li.active a
     background: #dd4b39;
     color: white;
 }
+.folio
+{
+    float: right;
+}
+.folio h1
+{
+    color: white;
+    font-size: 40px;
+}
+
+.main
+{
+    display: flex;
+    padding: 10px;
+    margin: 0;
+
+}
+.grid 
+{
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: auto auto;
+    padding: 10px;
+}
+
+.grid-column 
+{
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    padding: 50px;
+    height: 100px;
+    font-size: 30px;
+    opacity: 0.8;
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(placeholder.png);
+    background-position: center;
+    background-size: auto;
+}
 .rigs
 {
     margin: auto;
@@ -106,6 +142,8 @@ ul li.active a
 	font-style: italic;
     background-color: rgb(0,0,0,0.3);
     padding: 5px;
+    transform: translate(10px, -154px);
+
 }
 .form
 {
@@ -117,6 +155,7 @@ ul li.active a
     font-size: 18px;
     background-color: rgb(0,0,0,0.3);
     padding: 3px;
+    transform: translate(10px,  -154px);
 }
 .form:hover
 {
@@ -127,6 +166,7 @@ ul li.active a
  	background-color: green; 
  	color: #FFFFC0;
 }
+
 .curri
 {
 	float: right;
@@ -213,7 +253,7 @@ ul li.active a
     justify-content: space-between;
 }
 .skills .li_wrap{
-        width: 100px;
+     width: 100px;
     height: 100px;
     margin-bottom: 15px;
     border-radius: 15px;
@@ -221,6 +261,7 @@ ul li.active a
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    text-align: center;
 }
 
 .skills .li_wrap{
@@ -300,8 +341,18 @@ ul li.active a
  {  border: 1px solid ;
   padding: 0.4rem;
 } 
-th 
-{
+th {
   border: 1px solid ;
   padding: 0.4rem;
+
+}
+.port
+{
+    float: right;
+}
+
+.port h1
+{
+    color: white;
+    font-size: 50px;
 }
