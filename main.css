@@ -1,4 +1,4 @@
-body 
+body /*<............Homepage css start...................>*/
 {
     margin:0;
     padding:0;
@@ -37,6 +37,7 @@ ul li.active a
 	background-color: black;
 	color: white;
 }
+
 .maintext
 {
 	max-width: 1500px;
@@ -93,6 +94,8 @@ ul li.active a
     background: #dd4b39;
     color: white;
 }
+/*<...........................Homepage css end...........>*/
+       /* <...................porfolio css start................>*/
 .folio
 {
     float: right;
@@ -130,6 +133,8 @@ ul li.active a
     background-position: center;
     background-size: auto;
 }
+/*<....................................portfolio css end.....>*/
+/*<.................contact css start..............>*/
 .rigs
 {
     margin: auto;
@@ -166,7 +171,9 @@ ul li.active a
  	background-color: green; 
  	color: #FFFFC0;
 }
+/*<................................contact css end...........>*/
 
+/*<..........................cv css start.................>*/
 .curri
 {
 	float: right;
@@ -344,8 +351,9 @@ ul li.active a
 th {
   border: 1px solid ;
   padding: 0.4rem;
-
-}
+  }
+/*<......................cv css end............>*/
+/*<..................................................sitereport css start..........>*/
 .port
 {
     float: right;
@@ -356,3 +364,57 @@ th {
     color: white;
     font-size: 50px;
 }
+.box{
+    font-size: 20px;
+    color: white;
+    text-align: justify;
+    padding: 10px;
+    
+}
+/*<...............sitereport css end............>*/
+/*<...............media query css start.............................>*/
+.span {
+    color: #54D17A;
+}
+
+label {
+    margin: 0 40px 0 0;
+    font-size: 26px;
+    line-height: 70px;
+    display: none;
+    width: 26px;
+    float: right;
+}
+#toggle {
+    display: none;
+}
+
+
+@media only screen and (max-width: 500px) {
+    label {
+        display: block;
+        cursor: pointer;
+    }
+    .menu {
+        text-align: center;
+        width: 100%;
+        display: none;
+    }
+    .menu a {
+        display: block;
+        border-bottom: 1px solid #EAEAEB;
+        margin: 0;
+     
+    }
+    #toggle:checked + .menu {
+        display: block;
+    }
+    ul li
+{
+    display:inline-flex;
+    width: 100%;
+}
+    
+    
+}
+/*<........................media query css end............>*/
