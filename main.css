@@ -12,48 +12,48 @@ header
 }
 ul
 {
-	float:left;
-	list-style-type:none;
-	margin-top: 30px;
+    float:left;
+    list-style-type:none;
+    margin-top: 30px;
 }
 ul li
 {
-	display:inline-block;
+    display:inline-block;
 }
 ul li a
 {
-	text-decoration:none;
-	color: white;
-	padding: 10px 20px;
-	border: 1px solid transparent;
+    text-decoration:none;
+    color: white;
+    padding: 10px 20px;
+    border: 1px solid transparent;
 }
 ul li a:hover
 {
-	background-color:black;
-	color: white;
+    background-color:black;
+    color: white;
 }
 ul li.active a
 {
-	background-color: black;
-	color: white;
+    background-color: black;
+    color: white;
 }
 
 .maintxt
 {
-	max-width: 1500px;
-	margin: auto;
+    max-width: 1500px;
+    margin: auto;
 }
 .le
 {
-	position: fixed;
-	top: 50%;
-	left:50%;
-	transform: translate(-50%,-50%);
+    position: fixed;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%,-50%);
 }
 .le h1
 {
-	color: white;
-	font-size: 50px;
+    color: white;
+    font-size: 50px;
 }
 .footer
 {
@@ -149,9 +149,9 @@ ul li.active a
 }
 .rigs h1
 {
-	color: white;
-	text-align: center;
-	font-style: italic;
+    color: white;
+    text-align: center;
+    font-style: italic;
     background-color: rgb(0,0,0,0.3);
     padding: 5px;
     transform: translate(10px, -154px);
@@ -160,8 +160,8 @@ ul li.active a
 .form
 {
     color: white;
-	text-align: center;
-	font-style: italic;
+    text-align: center;
+    font-style: italic;
     margin: auto;
     width: 40%;
     font-size: 18px;
@@ -175,15 +175,15 @@ ul li.active a
 }
  .submit
 {
- 	background-color: green; 
- 	color: #FFFFC0;
+    background-color: green; 
+    color: #FFFFC0;
 }
 /*<................................contact css end...........>*/
 
 /*<..........................cv css start.................>*/
 .curri
 {
-	float: right;
+    float: right;
 }
 .curri
 {
@@ -389,8 +389,22 @@ th {
     color: white;
     text-align: justify;
     padding: 10px;
+
+}
+.tab {
+    font-size: 21px;
+    color: white;
+    padding: 10px;
     
 }
+.ref{
+     font-size: 21px;
+    color: #12fe86f2;
+    padding: 10px;
+ 
+    
+}
+
 /*<...............sitereport css end............>*/
 /*<...............media query css start.............................>*/
 .span {
@@ -434,7 +448,6 @@ label {
     display:inline-flex;
     width: 100%;
 }
-    
-    
+
 }
 /*<........................media query css end............>*/
