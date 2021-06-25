@@ -6,8 +6,8 @@ body /*<.....................Homepage css start..........>*/
     background-size:cover;
     background-attachment: fixed;
 }
-header
-{
+header{
+
     height: 250px;
 }
 ul
@@ -59,17 +59,18 @@ ul li.active a
 {
     position: fixed;
     background-color: rgba(255, 255, 255, 0.2);
-    color: black;
+    color: white;
     left: 0;
     bottom: 0;
     width: 100%;
     text-align: center;
     font-size: 18px;
+
 }
 
 .fa 
 {
-    padding: 15px;
+    padding: 10px;
     font-size: 16px;
     width: 25px;
     text-align: center;
@@ -113,13 +114,6 @@ ul li.active a
     font-size: 40px;
 }
 
-.main
-{
-    display: flex;
-    padding: 10px;
-    margin: 0;
-
-}
 .grid 
 {
     display: grid;
@@ -201,7 +195,7 @@ ul li.active a
 
 .leftside{
     background:red;
-    width: 350px;
+    width: 330px;
     padding: 0 20px;
 }
 
@@ -230,8 +224,6 @@ ul li.active a
     text-transform: uppercase;
     letter-spacing: 4px;
     padding-bottom: 10px;
-    color:black;
-    position: relative;
     text-align: right;
     margin-bottom: 20px;
     transform: translate(-90px, 31px);
@@ -269,7 +261,6 @@ ul li.active a
 .contact .rap .text
 {
     width: calc(100% - 50px);
-    word-break: break-word;
     color: #fff;
 }
 
@@ -352,7 +343,6 @@ ul li.active a
 {
     padding: 30px;
     color: black;
-    transform: translate(4px, 48px);
     font-style:oblique;
     text-align: justify;
 }
@@ -372,6 +362,17 @@ th {
   border: 1px solid ;
   padding: 0.4rem;
   }
+ .foot
+{
+    background-color: rgba(255, 255, 255, 0.2);
+    color: white;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    font-size: 18px;
+
+} 
 /*<......................cv css end............>*/
 /*<..................................................sitereport css start..........>*/
 .port
@@ -391,20 +392,46 @@ th {
     padding: 10px;
 
 }
-.tab {
-    font-size: 21px;
-    color: white;
-    padding: 10px;
-    
-}
 .ref{
      font-size: 21px;
     color: #12fe86f2;
+    padding: 10px;  
+}
+.Pictures{
+    font-size: 21px;
+    color: white;
     padding: 10px;
- 
+    max-width: 1300px;
+    margin: auto;
+    overflow: auto;
     
 }
+.photo{
+    margin: 5px;
+    border: 1px;
+    float: left;
+    width: 550px;    
+}
+.photo img{
+    width: 100%;
+    height: auto;
 
+}
+.dis{
+    padding: 15px;
+    text-align: center;
+}
+.foot
+{
+    background-color: rgba(255, 255, 255, 0.2);
+    color:white;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    font-size: 18px;
+
+}
 /*<...............sitereport css end............>*/
 /*<...............media query css start.............................>*/
 .span {
@@ -444,10 +471,19 @@ label {
         display: block;
     }
     ul li
-{
+   {
     display:inline-flex;
+    width: 100%;
+   }
+.le{
+    text-align: center;
+}
+.grid{
     width: 100%;
 }
 
+
 }
+
+
 /*<........................media query css end............>*/
