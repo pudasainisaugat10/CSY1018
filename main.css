@@ -6,8 +6,8 @@ body /*<.....................Homepage css start..........>*/
     background-size:cover;
     background-attachment: fixed;
 }
-header{
-
+header
+{
     height: 250px;
 }
 ul
@@ -37,7 +37,6 @@ ul li.active a
     background-color: black;
     color: white;
 }
-
 .maintxt
 {
     max-width: 1500px;
@@ -65,9 +64,7 @@ ul li.active a
     width: 100%;
     text-align: center;
     font-size: 18px;
-
 }
-
 .fa 
 {
     padding: 10px;
@@ -97,8 +94,8 @@ ul li.active a
     background: #dd4b39;
     color: white;
 }
-
-.fa-instagram {
+.fa-instagram 
+{
   background: #125688;
   color: white;
 }
@@ -113,7 +110,6 @@ ul li.active a
     color: white;
     font-size: 40px;
 }
-
 .grid 
 {
     display: grid;
@@ -121,7 +117,6 @@ ul li.active a
     grid-template-columns: auto auto;
     padding: 10px;
 }
-
 .grid-column 
 {
     background-color: rgba(255, 255, 255, 0.8);
@@ -149,7 +144,6 @@ ul li.active a
     background-color: rgb(0,0,0,0.3);
     padding: 5px;
     transform: translate(10px, -154px);
-
 }
 .form
 {
@@ -184,7 +178,6 @@ ul li.active a
     color: white;
     font-size: 25px;
 }
-
 .cv
 {
     width: 950px;
@@ -192,19 +185,17 @@ ul li.active a
     margin: auto;
     display: flex;
 }
-
-.leftside{
+.leftside
+{
     background:red;
     width: 330px;
     padding: 0 20px;
 }
-
 .leftside .icon
 {
     font-size: 25px;
     color: black;
 }
-
 .left .text
 {
     color: black;
@@ -263,14 +254,14 @@ ul li.active a
     width: calc(100% - 50px);
     color: #fff;
 }
-
 .skills ul
 {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
 }
-.skills .wrap{
+.skills .wrap
+{
      width: 100px;
     height: 100px;
     margin-bottom: 15px;
@@ -281,21 +272,22 @@ ul li.active a
     justify-content: center;
     text-align: center;
 }
-
-.skills .wrap{
+.skills .wrap
+{
     background: #fff;
 }
-
-.skills .wrap .text{
+.skills .wrap .text
+{
     margin-top: 5px;
 }
-.hobbies ul{
+.hobbies ul
+{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
 }
-
-.hobbies .app{
+.hobbies .app
+{
     width: 100px;
     height: 100px;
     margin-bottom: 15px;
@@ -305,13 +297,10 @@ ul li.active a
     align-items: center;
     justify-content: center;
 }
-
-
 .hobbies .app .text
 {
     margin-top: 5px;
 }
-
 .hobbies .app
 {
     border: 2px solid #fff;
@@ -355,13 +344,14 @@ ul li.active a
   border-collapse: collapse;
 }
  td
- {  border: 1px solid ;
+{  border: 1px solid ;
   padding: 0.4rem;
 } 
-th {
+th 
+{
   border: 1px solid ;
   padding: 0.4rem;
-  }
+}
  .foot
 {
     background-color: rgba(255, 255, 255, 0.2);
@@ -371,7 +361,6 @@ th {
     width: 100%;
     text-align: center;
     font-size: 18px;
-
 } 
 /*<......................cv css end............>*/
 /*<..................................................sitereport css start..........>*/
@@ -385,39 +374,42 @@ th {
     color: white;
     font-size: 50px;
 }
-.box{
+.box
+{
     font-size: 21px;
     color: white;
     text-align: justify;
     padding: 10px;
-
 }
-.ref{
+.ref
+{
      font-size: 21px;
     color: #12fe86f2;
     padding: 10px;  
 }
-.Pictures{
+.Pictures
+{
     font-size: 21px;
     color: white;
     padding: 10px;
     max-width: 1300px;
     margin: auto;
-    overflow: auto;
-    
+    overflow: auto;  
 }
-.photo{
+.photo
+{
     margin: 5px;
     border: 1px;
     float: left;
     width: 550px;    
 }
-.photo img{
+.photo img
+{
     width: 100%;
     height: auto;
-
 }
-.dis{
+.dis
+{
     padding: 15px;
     text-align: center;
 }
@@ -430,15 +422,15 @@ th {
     width: 100%;
     text-align: center;
     font-size: 18px;
-
 }
 /*<...............sitereport css end............>*/
 /*<...............media query css start.............................>*/
-.span {
+.span 
+{
     color: #54D17A;
 }
-
-label {
+label 
+{
     margin: 0 40px 0 0;
     font-size: 26px;
     line-height: 70px;
@@ -446,28 +438,31 @@ label {
     width: 26px;
     float: right;
 }
-#tog {
+#tog 
+{
     display: none;
 }
-
-
-@media only screen and (max-width: 500px) {
-    label {
+@media only screen and (max-width: 500px) 
+{
+    label 
+    {
         display: block;
         cursor: pointer;
     }
-    .mega {
+    .mega 
+    {
         text-align: center;
         width: 100%;
         display: none;
     }
-    .mega a {
+    .mega a 
+    {
         display: block;
         border-bottom: 1px solid #EAEAEB;
-        margin: 0;
-     
+        margin: 0; 
     }
-    #tog:checked + .mega {
+    #tog:checked + .mega 
+    {
         display: block;
     }
     ul li
@@ -475,15 +470,14 @@ label {
     display:inline-flex;
     width: 100%;
    }
-.le{
+    .le
+   {
     text-align: center;
-}
-.grid{
+   }
+    .grid
+   {
     width: 100%;
+   }
+   
 }
-
-
-}
-
-
 /*<........................media query css end............>*/
